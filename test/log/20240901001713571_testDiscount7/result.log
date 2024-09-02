@@ -1,0 +1,1398 @@
+{
+    "name": "testDiscount7",
+    "start_time": "2024-09-01 00:13:17",
+    "end_time": "2024-09-01 00:13:17",
+    "curPrice": 2957,
+    "finalPrice": 2557,
+    "goodsItemCnt": 4,
+    "promotionCnt": 9,
+    "status": true,
+    "planCalculatorTotalCnt": 0,
+    "planCalculatorValidCnt": 6,
+    "solutionCalculatorTotalCnt": 4,
+    "solutionCalculatorValidCnt": 3,
+    "timer": {
+        "initContext": {
+            "total": 0.001,
+            "cnt": 1
+        },
+        "calculator": {
+            "total": 0.002,
+            "cnt": 1
+        },
+        "stage": {
+            "total": 0.001,
+            "cnt": 1
+        },
+        "stageContext_1": {
+            "total": 0,
+            "cnt": 8
+        },
+        "stageContext_2": {
+            "total": 0.001,
+            "cnt": 6
+        },
+        "stageContext_2.3.PlanGenerator\\MinStartPlanGenerator": {
+            "total": 0,
+            "cnt": 10
+        },
+        "stageContext_2.5.PlanGenerator\\NotWorkableCacheCheckRule": {
+            "total": 0,
+            "cnt": 40
+        },
+        "stageContext_2.4.PlanGenerator\\EstimatePlanGenerator": {
+            "total": 0,
+            "cnt": 28
+        },
+        "stageContext_2.1.Promotion\\PromotionCheckRule": {
+            "total": 0,
+            "cnt": 30
+        },
+        "stageContext_2.2.Stage\\MaxSaveStageCheckRule": {
+            "total": 0,
+            "cnt": 17
+        },
+        "stageContext_2.2.Stage\\PromotionMtualStageCheckRule": {
+            "total": 0,
+            "cnt": 17
+        },
+        "stageContext_2.2.Stage\\PromotionStageCheckRule": {
+            "total": 0,
+            "cnt": 10
+        },
+        "stageContext_2.2.Stage\\IdleGoodsStageCheckRule": {
+            "total": 0,
+            "cnt": 10
+        },
+        "stageContext_2.2.Stage\\IdlePromotionCheckRule": {
+            "total": 0,
+            "cnt": 7
+        },
+        "stageContext_2.2.Stage\\PlanWorkableStageCheckRule": {
+            "total": 0,
+            "cnt": 6
+        },
+        "solution": {
+            "total": 0,
+            "cnt": 1
+        },
+        "result": {
+            "total": 0,
+            "cnt": 1
+        }
+    },
+    "checkRuleCnt": {
+        "Plan\\PlanPreCheckRule": {
+            "in": 8,
+            "out": 8,
+            "blocked": 0
+        },
+        "Plan\\MaxSaveCheckRule": {
+            "in": 8,
+            "out": 6,
+            "blocked": 2
+        },
+        "Promotion\\PromotionCheckRule": {
+            "in": 30,
+            "out": 25,
+            "blocked": 5
+        },
+        "PlanGenerator\\MinStartPlanGenerator": {
+            "in": 10,
+            "out": 10,
+            "blocked": 0
+        },
+        "PlanGenerator\\EstimatePlanGenerator": {
+            "in": 28,
+            "out": 22,
+            "blocked": 6
+        },
+        "PlanGenerator\\NotWorkableCacheCheckRule": {
+            "in": 40,
+            "out": 31,
+            "blocked": 9
+        },
+        "Stage\\MaxSaveStageCheckRule": {
+            "in": 17,
+            "out": 17,
+            "blocked": 0
+        },
+        "Stage\\PromotionMtualStageCheckRule": {
+            "in": 17,
+            "out": 10,
+            "blocked": 7
+        },
+        "Stage\\PromotionStageCheckRule": {
+            "in": 10,
+            "out": 10,
+            "blocked": 0
+        },
+        "Stage\\IdleGoodsStageCheckRule": {
+            "in": 10,
+            "out": 7,
+            "blocked": 3
+        },
+        "Stage\\IdlePromotionCheckRule": {
+            "in": 7,
+            "out": 6,
+            "blocked": 1
+        },
+        "Stage\\PlanWorkableStageCheckRule": {
+            "in": 6,
+            "out": 6,
+            "blocked": 0
+        },
+        "Solution\\EstimatedSolutionPriceCheckRule": {
+            "in": 3,
+            "out": 3,
+            "blocked": 0
+        },
+        "Solution\\PromotionMutualSolutionCheckRule": {
+            "in": 3,
+            "out": 3,
+            "blocked": 0
+        },
+        "Solution\\SolutionWorkableCheckRule": {
+            "in": 3,
+            "out": 3,
+            "blocked": 0
+        },
+        "Result\\PostArrangeCheckRule": {
+            "in": 1,
+            "out": 1,
+            "blocked": 0
+        }
+    },
+    "runCnt": {
+        "promotion-combination": 57,
+        "stageContext_2.3": 10,
+        "initManualIterator2": 8,
+        "stageContext_2.5": 40,
+        "NotWorkableCacheCheckRule": 40,
+        "stageContext_2.4": 28,
+        "stageContext_2.1": 30,
+        "plan": 40,
+        "promotion_check": 25,
+        "plan_out": 10,
+        "minWorkableCache": 36,
+        "initManualIterator5": 1,
+        "stage_skip_7": 3,
+        "promotion_skip_5": 5,
+        "stage_skip_1": 7,
+        "promotion_skip_3": 9,
+        "initManualIterator7": 1,
+        "initManualIterator8": 4,
+        "initManualIterator3": 2,
+        "solution": 3
+    },
+    "memoryInfo": {
+        "total": "7.29MB",
+        "goodsPromotionExclusiveList": "4, 109",
+        "planContextCache": "10, 105",
+        "sameFullFilledPlan": "8, 74",
+        "logCache": "17, 85",
+        "promotionTracing": "9, 153",
+        "c_2": [],
+        "c_3": [],
+        "c_4": [],
+        "c_5": [],
+        "c_6": [],
+        "c_10": [],
+        "c_7": [],
+        "c_8": [],
+        "c_9": []
+    },
+    "finalSolution": {
+        "planDefineList": [
+            {
+                "c_10": [
+                    0
+                ],
+                "c_9": [
+                    3,
+                    1
+                ]
+            },
+            {
+                "c_4": [
+                    3,
+                    1,
+                    0,
+                    2
+                ]
+            },
+            {
+                "c_7": [
+                    0
+                ]
+            },
+            {
+                "c_8": [
+                    0
+                ]
+            }
+        ],
+        "amount": 2957,
+        "actualAmount": 2557,
+        "totalSaved": 400,
+        "workable": true,
+        "promotionSaved": {
+            "c_2": {
+                "goodsitems": [
+                    3,
+                    1,
+                    0,
+                    2
+                ],
+                "saved": 0,
+                "minSave": 0,
+                "maxSave": 0
+            },
+            "c_3": {
+                "goodsitems": [
+                    3,
+                    1,
+                    0,
+                    2
+                ],
+                "saved": 0,
+                "minSave": 50,
+                "maxSave": 50
+            },
+            "c_4": {
+                "goodsitems": [
+                    3,
+                    1,
+                    0,
+                    2
+                ],
+                "saved": 100,
+                "minSave": 100,
+                "maxSave": 100
+            },
+            "c_5": {
+                "goodsitems": [
+                    3,
+                    1,
+                    0,
+                    2
+                ],
+                "saved": 0,
+                "minSave": 0,
+                "maxSave": 0
+            },
+            "c_6": {
+                "goodsitems": [
+                    3,
+                    1,
+                    0,
+                    2
+                ],
+                "saved": 0,
+                "minSave": 0,
+                "maxSave": 0
+            },
+            "c_10": {
+                "goodsitems": [
+                    0
+                ],
+                "saved": 60,
+                "minSave": 60,
+                "maxSave": 60
+            },
+            "c_7": {
+                "goodsitems": [
+                    0
+                ],
+                "saved": 30,
+                "minSave": 30,
+                "maxSave": 30
+            },
+            "c_8": {
+                "goodsitems": [
+                    0
+                ],
+                "saved": 10,
+                "minSave": 10,
+                "maxSave": 10
+            },
+            "c_9": {
+                "goodsitems": [
+                    3,
+                    1
+                ],
+                "saved": 200,
+                "minSave": 200,
+                "maxSave": 200
+            }
+        },
+        "orderSaved": 400,
+        "cartInfo": {
+            "1": {
+                "shop_id": 1,
+                "saved": 400,
+                "goodsitems": [
+                    {
+                        "cartId": 1,
+                        "app": "QYShop",
+                        "module": "goods",
+                        "rowid": 1,
+                        "name": "商品A",
+                        "cnt": 1,
+                        "amount": 559,
+                        "actualAmount": 440.1
+                    },
+                    {
+                        "cartId": 2,
+                        "app": "QYShop",
+                        "module": "goods",
+                        "rowid": 2,
+                        "name": "商品B",
+                        "cnt": 1,
+                        "amount": 600,
+                        "actualAmount": 525.16
+                    },
+                    {
+                        "cartId": 3,
+                        "app": "QYShop",
+                        "module": "goods",
+                        "rowid": 3,
+                        "name": "商品C",
+                        "cnt": 1,
+                        "amount": 198,
+                        "actualAmount": 191.3
+                    },
+                    {
+                        "cartId": 4,
+                        "app": "QYShop",
+                        "module": "goods",
+                        "rowid": 4,
+                        "name": "商品D",
+                        "cnt": 1,
+                        "amount": 1600,
+                        "actualAmount": 1400.44
+                    }
+                ]
+            }
+        },
+        "goodsInfo": [
+            {
+                "idx": 0,
+                "app": "QYShop",
+                "module": "goods",
+                "rowid": 1,
+                "name": "商品A",
+                "amount": 559,
+                "actualAmount": 440.1,
+                "promotionRecord": [
+                    {
+                        "bond_type": "subtotal",
+                        "promotion_claim_id": 10,
+                        "promotion_key": "c_10",
+                        "from": 559,
+                        "to": 499,
+                        "saved": 60
+                    },
+                    {
+                        "bond_type": "shop",
+                        "promotion_claim_id": 4,
+                        "promotion_key": "c_4",
+                        "from": 559,
+                        "to": 540.1,
+                        "saved": 18.9
+                    },
+                    {
+                        "bond_type": "shops",
+                        "promotion_claim_id": 7,
+                        "promotion_key": "c_7",
+                        "from": 559,
+                        "to": 529,
+                        "saved": 30
+                    },
+                    {
+                        "bond_type": "order",
+                        "promotion_claim_id": 8,
+                        "promotion_key": "c_8",
+                        "from": 559,
+                        "to": 549,
+                        "saved": 10
+                    }
+                ]
+            },
+            {
+                "idx": 1,
+                "app": "QYShop",
+                "module": "goods",
+                "rowid": 2,
+                "name": "商品B",
+                "amount": 600,
+                "actualAmount": 525.16,
+                "promotionRecord": [
+                    {
+                        "bond_type": "subtotal",
+                        "promotion_claim_id": 9,
+                        "promotion_key": "c_9",
+                        "from": 600,
+                        "to": 545.45,
+                        "saved": 54.55
+                    },
+                    {
+                        "bond_type": "shop",
+                        "promotion_claim_id": 4,
+                        "promotion_key": "c_4",
+                        "from": 600,
+                        "to": 579.71,
+                        "saved": 20.29
+                    }
+                ]
+            },
+            {
+                "idx": 2,
+                "app": "QYShop",
+                "module": "goods",
+                "rowid": 3,
+                "name": "商品C",
+                "amount": 198,
+                "actualAmount": 191.3,
+                "promotionRecord": [
+                    {
+                        "bond_type": "shop",
+                        "promotion_claim_id": 4,
+                        "promotion_key": "c_4",
+                        "from": 198,
+                        "to": 191.3,
+                        "saved": 6.7
+                    }
+                ]
+            },
+            {
+                "idx": 3,
+                "app": "QYShop",
+                "module": "goods",
+                "rowid": 4,
+                "name": "商品D",
+                "amount": 1600,
+                "actualAmount": 1400.44,
+                "promotionRecord": [
+                    {
+                        "bond_type": "subtotal",
+                        "promotion_claim_id": 9,
+                        "promotion_key": "c_9",
+                        "from": 1600,
+                        "to": 1454.55,
+                        "saved": 145.45
+                    },
+                    {
+                        "bond_type": "shop",
+                        "promotion_claim_id": 4,
+                        "promotion_key": "c_4",
+                        "from": 1600,
+                        "to": 1545.89,
+                        "saved": 54.11
+                    }
+                ]
+            }
+        ]
+    },
+    "finalSolutionSame": [
+        {
+            "planDefineList": [
+                {
+                    "c_10": [
+                        0
+                    ],
+                    "c_9": [
+                        3,
+                        1
+                    ]
+                },
+                {
+                    "c_4": [
+                        3,
+                        1
+                    ]
+                },
+                {
+                    "c_7": [
+                        0
+                    ]
+                },
+                {
+                    "c_8": [
+                        0
+                    ]
+                }
+            ],
+            "amount": 2957,
+            "actualAmount": 2557,
+            "totalSaved": 400,
+            "workable": true,
+            "promotionSaved": {
+                "c_2": {
+                    "goodsitems": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ],
+                    "saved": 0,
+                    "minSave": 0,
+                    "maxSave": 0
+                },
+                "c_3": {
+                    "goodsitems": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ],
+                    "saved": 0,
+                    "minSave": 50,
+                    "maxSave": 50
+                },
+                "c_4": {
+                    "goodsitems": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ],
+                    "saved": 100,
+                    "minSave": 100,
+                    "maxSave": 100
+                },
+                "c_5": {
+                    "goodsitems": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ],
+                    "saved": 0,
+                    "minSave": 0,
+                    "maxSave": 0
+                },
+                "c_6": {
+                    "goodsitems": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ],
+                    "saved": 0,
+                    "minSave": 0,
+                    "maxSave": 0
+                },
+                "c_10": {
+                    "goodsitems": [
+                        0
+                    ],
+                    "saved": 60,
+                    "minSave": 60,
+                    "maxSave": 60
+                },
+                "c_7": {
+                    "goodsitems": [
+                        0
+                    ],
+                    "saved": 30,
+                    "minSave": 30,
+                    "maxSave": 30
+                },
+                "c_8": {
+                    "goodsitems": [
+                        0
+                    ],
+                    "saved": 10,
+                    "minSave": 10,
+                    "maxSave": 10
+                },
+                "c_9": {
+                    "goodsitems": [
+                        3,
+                        1
+                    ],
+                    "saved": 200,
+                    "minSave": 200,
+                    "maxSave": 200
+                }
+            },
+            "orderSaved": 400,
+            "cartInfo": {
+                "1": {
+                    "shop_id": 1,
+                    "saved": 400,
+                    "goodsitems": [
+                        {
+                            "cartId": 1,
+                            "app": "QYShop",
+                            "module": "goods",
+                            "rowid": 1,
+                            "name": "商品A",
+                            "cnt": 1,
+                            "amount": 559,
+                            "actualAmount": 459
+                        },
+                        {
+                            "cartId": 2,
+                            "app": "QYShop",
+                            "module": "goods",
+                            "rowid": 2,
+                            "name": "商品B",
+                            "cnt": 1,
+                            "amount": 600,
+                            "actualAmount": 518.18
+                        },
+                        {
+                            "cartId": 3,
+                            "app": "QYShop",
+                            "module": "goods",
+                            "rowid": 3,
+                            "name": "商品C",
+                            "cnt": 1,
+                            "amount": 198,
+                            "actualAmount": 198
+                        },
+                        {
+                            "cartId": 4,
+                            "app": "QYShop",
+                            "module": "goods",
+                            "rowid": 4,
+                            "name": "商品D",
+                            "cnt": 1,
+                            "amount": 1600,
+                            "actualAmount": 1381.82
+                        }
+                    ]
+                }
+            },
+            "goodsInfo": [
+                {
+                    "idx": 0,
+                    "app": "QYShop",
+                    "module": "goods",
+                    "rowid": 1,
+                    "name": "商品A",
+                    "amount": 559,
+                    "actualAmount": 459,
+                    "promotionRecord": [
+                        {
+                            "bond_type": "subtotal",
+                            "promotion_claim_id": 10,
+                            "promotion_key": "c_10",
+                            "from": 559,
+                            "to": 499,
+                            "saved": 60
+                        },
+                        {
+                            "bond_type": "shops",
+                            "promotion_claim_id": 7,
+                            "promotion_key": "c_7",
+                            "from": 559,
+                            "to": 529,
+                            "saved": 30
+                        },
+                        {
+                            "bond_type": "order",
+                            "promotion_claim_id": 8,
+                            "promotion_key": "c_8",
+                            "from": 559,
+                            "to": 549,
+                            "saved": 10
+                        }
+                    ]
+                },
+                {
+                    "idx": 1,
+                    "app": "QYShop",
+                    "module": "goods",
+                    "rowid": 2,
+                    "name": "商品B",
+                    "amount": 600,
+                    "actualAmount": 518.18,
+                    "promotionRecord": [
+                        {
+                            "bond_type": "subtotal",
+                            "promotion_claim_id": 9,
+                            "promotion_key": "c_9",
+                            "from": 600,
+                            "to": 545.45,
+                            "saved": 54.55
+                        },
+                        {
+                            "bond_type": "shop",
+                            "promotion_claim_id": 4,
+                            "promotion_key": "c_4",
+                            "from": 600,
+                            "to": 572.73,
+                            "saved": 27.27
+                        }
+                    ]
+                },
+                {
+                    "idx": 2,
+                    "app": "QYShop",
+                    "module": "goods",
+                    "rowid": 3,
+                    "name": "商品C",
+                    "amount": 198,
+                    "actualAmount": 198,
+                    "promotionRecord": []
+                },
+                {
+                    "idx": 3,
+                    "app": "QYShop",
+                    "module": "goods",
+                    "rowid": 4,
+                    "name": "商品D",
+                    "amount": 1600,
+                    "actualAmount": 1381.82,
+                    "promotionRecord": [
+                        {
+                            "bond_type": "subtotal",
+                            "promotion_claim_id": 9,
+                            "promotion_key": "c_9",
+                            "from": 1600,
+                            "to": 1454.55,
+                            "saved": 145.45
+                        },
+                        {
+                            "bond_type": "shop",
+                            "promotion_claim_id": 4,
+                            "promotion_key": "c_4",
+                            "from": 1600,
+                            "to": 1527.27,
+                            "saved": 72.73
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "planDefineList": [
+                {
+                    "c_10": [
+                        0
+                    ],
+                    "c_9": [
+                        3,
+                        1
+                    ]
+                },
+                {
+                    "c_4": [
+                        3,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "c_7": [
+                        0
+                    ]
+                },
+                {
+                    "c_8": [
+                        0
+                    ]
+                }
+            ],
+            "amount": 2957,
+            "actualAmount": 2557,
+            "totalSaved": 400,
+            "workable": true,
+            "promotionSaved": {
+                "c_2": {
+                    "goodsitems": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ],
+                    "saved": 0,
+                    "minSave": 0,
+                    "maxSave": 0
+                },
+                "c_3": {
+                    "goodsitems": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ],
+                    "saved": 0,
+                    "minSave": 50,
+                    "maxSave": 50
+                },
+                "c_4": {
+                    "goodsitems": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ],
+                    "saved": 100,
+                    "minSave": 100,
+                    "maxSave": 100
+                },
+                "c_5": {
+                    "goodsitems": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ],
+                    "saved": 0,
+                    "minSave": 0,
+                    "maxSave": 0
+                },
+                "c_6": {
+                    "goodsitems": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ],
+                    "saved": 0,
+                    "minSave": 0,
+                    "maxSave": 0
+                },
+                "c_10": {
+                    "goodsitems": [
+                        0
+                    ],
+                    "saved": 60,
+                    "minSave": 60,
+                    "maxSave": 60
+                },
+                "c_7": {
+                    "goodsitems": [
+                        0
+                    ],
+                    "saved": 30,
+                    "minSave": 30,
+                    "maxSave": 30
+                },
+                "c_8": {
+                    "goodsitems": [
+                        0
+                    ],
+                    "saved": 10,
+                    "minSave": 10,
+                    "maxSave": 10
+                },
+                "c_9": {
+                    "goodsitems": [
+                        3,
+                        1
+                    ],
+                    "saved": 200,
+                    "minSave": 200,
+                    "maxSave": 200
+                }
+            },
+            "orderSaved": 400,
+            "cartInfo": {
+                "1": {
+                    "shop_id": 1,
+                    "saved": 400,
+                    "goodsitems": [
+                        {
+                            "cartId": 1,
+                            "app": "QYShop",
+                            "module": "goods",
+                            "rowid": 1,
+                            "name": "商品A",
+                            "cnt": 1,
+                            "amount": 559,
+                            "actualAmount": 438.74
+                        },
+                        {
+                            "cartId": 2,
+                            "app": "QYShop",
+                            "module": "goods",
+                            "rowid": 2,
+                            "name": "商品B",
+                            "cnt": 1,
+                            "amount": 600,
+                            "actualAmount": 523.7
+                        },
+                        {
+                            "cartId": 3,
+                            "app": "QYShop",
+                            "module": "goods",
+                            "rowid": 3,
+                            "name": "商品C",
+                            "cnt": 1,
+                            "amount": 198,
+                            "actualAmount": 198
+                        },
+                        {
+                            "cartId": 4,
+                            "app": "QYShop",
+                            "module": "goods",
+                            "rowid": 4,
+                            "name": "商品D",
+                            "cnt": 1,
+                            "amount": 1600,
+                            "actualAmount": 1396.56
+                        }
+                    ]
+                }
+            },
+            "goodsInfo": [
+                {
+                    "idx": 0,
+                    "app": "QYShop",
+                    "module": "goods",
+                    "rowid": 1,
+                    "name": "商品A",
+                    "amount": 559,
+                    "actualAmount": 438.74,
+                    "promotionRecord": [
+                        {
+                            "bond_type": "subtotal",
+                            "promotion_claim_id": 10,
+                            "promotion_key": "c_10",
+                            "from": 559,
+                            "to": 499,
+                            "saved": 60
+                        },
+                        {
+                            "bond_type": "shop",
+                            "promotion_claim_id": 4,
+                            "promotion_key": "c_4",
+                            "from": 559,
+                            "to": 538.74,
+                            "saved": 20.26
+                        },
+                        {
+                            "bond_type": "shops",
+                            "promotion_claim_id": 7,
+                            "promotion_key": "c_7",
+                            "from": 559,
+                            "to": 529,
+                            "saved": 30
+                        },
+                        {
+                            "bond_type": "order",
+                            "promotion_claim_id": 8,
+                            "promotion_key": "c_8",
+                            "from": 559,
+                            "to": 549,
+                            "saved": 10
+                        }
+                    ]
+                },
+                {
+                    "idx": 1,
+                    "app": "QYShop",
+                    "module": "goods",
+                    "rowid": 2,
+                    "name": "商品B",
+                    "amount": 600,
+                    "actualAmount": 523.7,
+                    "promotionRecord": [
+                        {
+                            "bond_type": "subtotal",
+                            "promotion_claim_id": 9,
+                            "promotion_key": "c_9",
+                            "from": 600,
+                            "to": 545.45,
+                            "saved": 54.55
+                        },
+                        {
+                            "bond_type": "shop",
+                            "promotion_claim_id": 4,
+                            "promotion_key": "c_4",
+                            "from": 600,
+                            "to": 578.25,
+                            "saved": 21.75
+                        }
+                    ]
+                },
+                {
+                    "idx": 2,
+                    "app": "QYShop",
+                    "module": "goods",
+                    "rowid": 3,
+                    "name": "商品C",
+                    "amount": 198,
+                    "actualAmount": 198,
+                    "promotionRecord": []
+                },
+                {
+                    "idx": 3,
+                    "app": "QYShop",
+                    "module": "goods",
+                    "rowid": 4,
+                    "name": "商品D",
+                    "amount": 1600,
+                    "actualAmount": 1396.56,
+                    "promotionRecord": [
+                        {
+                            "bond_type": "subtotal",
+                            "promotion_claim_id": 9,
+                            "promotion_key": "c_9",
+                            "from": 1600,
+                            "to": 1454.55,
+                            "saved": 145.45
+                        },
+                        {
+                            "bond_type": "shop",
+                            "promotion_claim_id": 4,
+                            "promotion_key": "c_4",
+                            "from": 1600,
+                            "to": 1542.01,
+                            "saved": 57.99
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "planDefineList": [
+                {
+                    "c_10": [
+                        0
+                    ],
+                    "c_9": [
+                        3,
+                        1
+                    ]
+                },
+                {
+                    "c_4": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ]
+                },
+                {
+                    "c_7": [
+                        0
+                    ]
+                },
+                {
+                    "c_8": [
+                        0
+                    ]
+                }
+            ],
+            "amount": 2957,
+            "actualAmount": 2557,
+            "totalSaved": 400,
+            "workable": true,
+            "promotionSaved": {
+                "c_2": {
+                    "goodsitems": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ],
+                    "saved": 0,
+                    "minSave": 0,
+                    "maxSave": 0
+                },
+                "c_3": {
+                    "goodsitems": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ],
+                    "saved": 0,
+                    "minSave": 50,
+                    "maxSave": 50
+                },
+                "c_4": {
+                    "goodsitems": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ],
+                    "saved": 100,
+                    "minSave": 100,
+                    "maxSave": 100
+                },
+                "c_5": {
+                    "goodsitems": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ],
+                    "saved": 0,
+                    "minSave": 0,
+                    "maxSave": 0
+                },
+                "c_6": {
+                    "goodsitems": [
+                        3,
+                        1,
+                        0,
+                        2
+                    ],
+                    "saved": 0,
+                    "minSave": 0,
+                    "maxSave": 0
+                },
+                "c_10": {
+                    "goodsitems": [
+                        0
+                    ],
+                    "saved": 60,
+                    "minSave": 60,
+                    "maxSave": 60
+                },
+                "c_7": {
+                    "goodsitems": [
+                        0
+                    ],
+                    "saved": 30,
+                    "minSave": 30,
+                    "maxSave": 30
+                },
+                "c_8": {
+                    "goodsitems": [
+                        0
+                    ],
+                    "saved": 10,
+                    "minSave": 10,
+                    "maxSave": 10
+                },
+                "c_9": {
+                    "goodsitems": [
+                        3,
+                        1
+                    ],
+                    "saved": 200,
+                    "minSave": 200,
+                    "maxSave": 200
+                }
+            },
+            "orderSaved": 400,
+            "cartInfo": {
+                "1": {
+                    "shop_id": 1,
+                    "saved": 400,
+                    "goodsitems": [
+                        {
+                            "cartId": 1,
+                            "app": "QYShop",
+                            "module": "goods",
+                            "rowid": 1,
+                            "name": "商品A",
+                            "cnt": 1,
+                            "amount": 559,
+                            "actualAmount": 440.1
+                        },
+                        {
+                            "cartId": 2,
+                            "app": "QYShop",
+                            "module": "goods",
+                            "rowid": 2,
+                            "name": "商品B",
+                            "cnt": 1,
+                            "amount": 600,
+                            "actualAmount": 525.16
+                        },
+                        {
+                            "cartId": 3,
+                            "app": "QYShop",
+                            "module": "goods",
+                            "rowid": 3,
+                            "name": "商品C",
+                            "cnt": 1,
+                            "amount": 198,
+                            "actualAmount": 191.3
+                        },
+                        {
+                            "cartId": 4,
+                            "app": "QYShop",
+                            "module": "goods",
+                            "rowid": 4,
+                            "name": "商品D",
+                            "cnt": 1,
+                            "amount": 1600,
+                            "actualAmount": 1400.44
+                        }
+                    ]
+                }
+            },
+            "goodsInfo": [
+                {
+                    "idx": 0,
+                    "app": "QYShop",
+                    "module": "goods",
+                    "rowid": 1,
+                    "name": "商品A",
+                    "amount": 559,
+                    "actualAmount": 440.1,
+                    "promotionRecord": [
+                        {
+                            "bond_type": "subtotal",
+                            "promotion_claim_id": 10,
+                            "promotion_key": "c_10",
+                            "from": 559,
+                            "to": 499,
+                            "saved": 60
+                        },
+                        {
+                            "bond_type": "shop",
+                            "promotion_claim_id": 4,
+                            "promotion_key": "c_4",
+                            "from": 559,
+                            "to": 540.1,
+                            "saved": 18.9
+                        },
+                        {
+                            "bond_type": "shops",
+                            "promotion_claim_id": 7,
+                            "promotion_key": "c_7",
+                            "from": 559,
+                            "to": 529,
+                            "saved": 30
+                        },
+                        {
+                            "bond_type": "order",
+                            "promotion_claim_id": 8,
+                            "promotion_key": "c_8",
+                            "from": 559,
+                            "to": 549,
+                            "saved": 10
+                        }
+                    ]
+                },
+                {
+                    "idx": 1,
+                    "app": "QYShop",
+                    "module": "goods",
+                    "rowid": 2,
+                    "name": "商品B",
+                    "amount": 600,
+                    "actualAmount": 525.16,
+                    "promotionRecord": [
+                        {
+                            "bond_type": "subtotal",
+                            "promotion_claim_id": 9,
+                            "promotion_key": "c_9",
+                            "from": 600,
+                            "to": 545.45,
+                            "saved": 54.55
+                        },
+                        {
+                            "bond_type": "shop",
+                            "promotion_claim_id": 4,
+                            "promotion_key": "c_4",
+                            "from": 600,
+                            "to": 579.71,
+                            "saved": 20.29
+                        }
+                    ]
+                },
+                {
+                    "idx": 2,
+                    "app": "QYShop",
+                    "module": "goods",
+                    "rowid": 3,
+                    "name": "商品C",
+                    "amount": 198,
+                    "actualAmount": 191.3,
+                    "promotionRecord": [
+                        {
+                            "bond_type": "shop",
+                            "promotion_claim_id": 4,
+                            "promotion_key": "c_4",
+                            "from": 198,
+                            "to": 191.3,
+                            "saved": 6.7
+                        }
+                    ]
+                },
+                {
+                    "idx": 3,
+                    "app": "QYShop",
+                    "module": "goods",
+                    "rowid": 4,
+                    "name": "商品D",
+                    "amount": 1600,
+                    "actualAmount": 1400.44,
+                    "promotionRecord": [
+                        {
+                            "bond_type": "subtotal",
+                            "promotion_claim_id": 9,
+                            "promotion_key": "c_9",
+                            "from": 1600,
+                            "to": 1454.55,
+                            "saved": 145.45
+                        },
+                        {
+                            "bond_type": "shop",
+                            "promotion_claim_id": 4,
+                            "promotion_key": "c_4",
+                            "from": 1600,
+                            "to": 1545.89,
+                            "saved": 54.11
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "solutionData": {
+        "subtotal": [
+            {
+                "c_10": [
+                    0
+                ],
+                "c_9": [
+                    3,
+                    1
+                ]
+            }
+        ],
+        "shop": [
+            {
+                "c_4": [
+                    3,
+                    1
+                ]
+            },
+            {
+                "c_4": [
+                    3,
+                    1,
+                    0
+                ]
+            },
+            {
+                "c_4": [
+                    3,
+                    1,
+                    0,
+                    2
+                ]
+            }
+        ],
+        "shops": [
+            {
+                "c_7": [
+                    0
+                ]
+            }
+        ],
+        "order": [
+            {
+                "c_8": [
+                    0
+                ]
+            }
+        ]
+    },
+    "solutions": [],
+    "solutionContextList": []
+}

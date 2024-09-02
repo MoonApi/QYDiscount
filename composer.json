@@ -1,0 +1,19 @@
+{
+    "name": "qianyi/qy-discount",
+    "type": "library",
+    "license": "MIT",
+    "autoload":{
+        "psr-4":{
+            "QyDiscount\\":"src/"
+        },
+        "files": [
+            "src/lib/Permutation/function.php"
+        ]
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "require": {
+    }
+}
